@@ -85,11 +85,11 @@ def CheckTeam(request):
 Lastly, I created a views function that will find a single item with link for each item from the database and send it to the template where iteams are displayed all the details of the item on the details page.
 
 
-def player_display(request):
-    player_display = Player.objects.all()
-    content = {'player_display': player_display}
-    return render(request, 'StatCheck/StatCheckDISPLAY.html', content)
+  def player_display(request):
+      player_display = Player.objects.all()
+      content = {'player_display': player_display}
+      return render(request, 'StatCheck/StatCheckDISPLAY.html', content)
 
-def CheckDetail(request, pk):
-    CheckDetail = get_object_or_404(Player, pk=pk)
-    return render(request, 'StatCheck/StatCheckDETAIL.html', {'CheckDetail': CheckDetail})
+  def CheckDetail(request, pk):
+      CheckDetail = get_object_or_404(Player, pk=pk)
+      return render(request, 'StatCheck/StatCheckDETAIL.html', {'CheckDetail': CheckDetail})
