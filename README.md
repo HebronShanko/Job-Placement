@@ -6,10 +6,10 @@ Here is where I will explain my Live Project Course and give a brief summary on 
 This Live project was built using the Django framework. This Live project tasked my fellow students and I the resposibility to create an interactive website for managing one's collections of things related to various hobbies, as well as API and Data Scraped content for those hobbies. This Live Project, that was in done in a two week sprint gave myself a chance to glance at what working in teams in the tech industry could be, we exerciesed management methodologies, working on a small piece of a larger project in the middle of its lifecycle and other skills sets that are vital in the technology professional. 
 
 
-To focus more on the coding aspect, in the next paragraps or two I will provide code summary of the Live Projects and explains the stories and the solution I came up with using Python and Django Framework. 
+To focus more on the coding aspect, in the next paragraps or two I will provide code summary of the Live Projects and explain the stories and the solutions I came up with using Python and Django Framework. 
 
 
-One of the talk was creating a model that included an objects manager for accessing the database:
+One of the task was creating a model that included an objects manager for accessing the database:
 
 
         from django.db import models
